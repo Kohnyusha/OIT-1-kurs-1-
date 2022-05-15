@@ -1,0 +1,13 @@
+    body{	
+		background: Plum;
+		color: black;
+		font-family: academy engraved let;
+	}
+	h1, h2, h3 {
+		color: black;
+		font-family: consolas;
+	}
+	span {
+		color: Fuchsia;
+		font-family: century gothic;
+	}

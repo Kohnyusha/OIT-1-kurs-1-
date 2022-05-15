@@ -1,0 +1,36 @@
+<html>
+<style type='text/css'>
+body {
+background: PeachPuff;
+}
+@keyframes anim1 {
+0% {margin-left:0px;margin-top:0px;background-color:black;}
+50% {margin-left:250px;margin-top:250px;background-color:white; transform: scale(2,2);transform: rotate(90deg)}
+100% {margin-left:0px;margin-top:0px;background-color:black;}
+}
+@keyframes anim2 {
+0% {margin-left:500px;margin-top:0px;background-color:White;}
+50% {margin-left:0px;margin-top:0px;background-color:black; transform: rotate(45deg)}
+100% {margin-left:500px;margin-top:0px;background-color:White;}
+}
+.box1 {
+display: inline-block;
+border: 2px black solid;
+background: grey;
+height:100px;
+width:100px;
+animation:anim1 6s 3;
+}
+.box2 {
+display: inline-block;
+border: 2px white solid;
+background: grey;
+height:100px;
+width:100px;
+animation:anim2 6s 3;
+}
+</style>
+<body>
+<div class="box1"> <div class="box2"></div></div>
+</body>
+</html>
